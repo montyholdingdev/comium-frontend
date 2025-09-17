@@ -1,0 +1,1015 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+    <title>Comium</title>
+    <meta content="" name="description" />
+
+    <meta content="" name="keywords" />
+
+    <!-- Favicons -->
+    <link href="assets/img/logo-red.svg" rel="icon" />
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@200;400;500;700;800;900&display=swap");
+    </style>
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!--<link rel="stylesheet" href="https://use.typekit.net/yfw8tzl.css" />-->
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet" />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <style>
+      canvas {
+        position: -webkit-sticky;
+
+        position: -moz-sticky;
+
+        position: -o-sticky;
+
+        position: -ms-sticky;
+
+        position: sticky;
+
+        top: 0;
+
+        left: 0;
+
+        width: 100%;
+
+        height: 100vh;
+
+        object-fit: cover;
+
+        object-position: center center;
+      }
+    </style>
+    <script src="assets/js/rocket.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/ScrollTrigger.min.js"></script>
+  </head>
+
+  <body>
+    <!-- ======= Header ======= -->
+    <header id="header" class="header fixed-top">
+      <div
+        class="container-fluid container-xl d-flex align-items-center justify-content-between"
+      >
+        <a href="index.html" class="logo d-flex align-items-center">
+          <img
+            src="assets/img/logo-red.svg"
+            alt="comium"
+            style="height: 140px; padding: 10px"
+          />
+          <!-- <span>FlexStart</span> -->
+        </a>
+
+        <nav id="navbar" class="navbar">
+          <ul>
+            <li>
+              <a class="nav-link scrollto" href="#hero">Home</a>
+            </li>
+            <li>
+              <a class="nav-link scrollto" href="#about">About</a>
+            </li>
+            <li>
+              <a class="nav-link scrollto" href="#values">Values</a>
+            </li>
+            <li>
+              <a class="nav-link scrollto" href="#services">Services</a>
+            </li>
+            <li>
+              <a class="nav-link scrollto" href="#team">Team</a>
+            </li>
+
+            <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+            <!-- <li>
+              <a class="getstarted scrollto" href="#about">Get Started</a>
+            </li> -->
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav>
+        <!-- .navbar -->
+      </div>
+    </header>
+    <!-- End Header -->
+    <script src="assets/js/rocket.js"></script>
+
+    <div class="main-banner" id="top" style="position: relative">
+      <div class="">
+        <div
+          class=""
+          style="
+            position: sticky;
+            z-index: 1;
+            font-size: 50px;
+            color: black;
+            margin: 0;
+            width: 85%;
+            text-align: left;
+            top: 32%;
+            left: 8%;
+          "
+          id="video-overlay"
+        >
+          <div class="container">
+            <div class="col-lg-6 d-flex flex-column justify-content-center">
+              <h1>
+                <span
+                  style="
+                    font-size: 90px;
+                    font-weight: 700 !important;
+                    line-height: 0.8;
+                  "
+                  >YOUR
+                  <span style="color: #da2c21; font-weight: 700 !important"
+                    >GO-TO</span
+                  ></span
+                >
+
+                <span style="font-size: 40px; font-weight: 600 !important"
+                  >TELECOM SERVICE PROVIDER</span
+                >
+              </h1>
+              <h2 style="font-size: 30px">
+                As we take on new challenges, our team has extensive expertise
+
+                <span style="font-weight: 500">the best telecom services.</span>
+                As we take on new challenges, our team has extensive expertise
+              </h2>
+              <div></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="" id="img_container" style="margin-top: -10%">
+          <canvas id="img_canvas"></canvas>
+        </div>
+
+        <script>
+          const scrollimage = new ScrollPlay({
+            speed: 10,
+
+            container: "img_container",
+
+            canvas: "img_canvas",
+
+            sequence: "assets/img/rocket3/",
+
+            frames: 211,
+          });
+        </script>
+      </div>
+    </div>
+
+    <main id="main">
+      <!-- ======= About Section ======= -->
+      <section id="about" class="about">
+        <div class="container" data-aos="fade-up">
+          <div class="row gx-0">
+            <div
+              class="col-lg-6 d-flex flex-column justify-content-center"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div class="content">
+                <h3>Who We Are</h3>
+                <h2>
+                  A dedicated team aiming to achieve its goals and objectives as
+                  one holistic group
+                </h2>
+                <p>
+                  Throughout its history, Comium has been an innovative company
+                  that provides superior communications services, making
+                  people’s lives more convenient and more comfortable, working
+                  hand in hand and together with all of our stakeholders.
+                </p>
+                <!-- <div class="text-center text-lg-start">
+                  <a
+                    href="#"
+                    class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center"
+                  >
+                    <span>Read More</span>
+                    <i class="bi bi-arrow-right"></i>
+                  </a>
+                </div> -->
+              </div>
+            </div>
+
+            <div
+              class="col-lg-6 d-flex align-items-center"
+              data-aos="zoom-out"
+              data-aos-delay="200"
+            >
+              <img
+                src="assets/img/about-section.jpg?v1"
+                class="img-fluid"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End About Section -->
+
+      <!-- ======= Values Section ======= -->
+      <section id="values" class="values features">
+        <div class="container feature-icons" data-aos="fade-up">
+          <header class="section-header">
+            <h2>Our Values</h2>
+            <p>We're Better Together</p>
+          </header>
+
+          <div class="row">
+            <div class="col-xl-12 d-flex content">
+              <div class="row align-self-center gy-4">
+                <div class="col-md-6 icon-box" data-aos="fade-up">
+                  <!-- <i class="ri-line-chart-line"></i> -->
+                  <div>
+                    <h4>Pioneering</h4>
+                    <p>
+                      We encourage a culture of investment and pioneering to
+                      actively seek new opportunities for growth, engaging all
+                      our stakeholders to contribute to our success.
+                    </p>
+                  </div>
+                </div>
+
+                <div
+                  class="col-md-6 icon-box"
+                  data-aos="fade-up"
+                  data-aos-delay="100"
+                >
+                  <!-- <i class="ri-stack-line"></i> -->
+                  <div>
+                    <h4>Honesty</h4>
+                    <p>
+                      We promote open communication and honesty with all of our
+                      stakeholders, establishing long-lasting, fruitful
+                      relationships based on trust and mutual respect.
+                    </p>
+                  </div>
+                </div>
+
+                <div
+                  class="col-md-6 icon-box"
+                  data-aos="fade-up"
+                  data-aos-delay="200"
+                >
+                  <!-- <i class="ri-brush-4-line"></i> -->
+                  <div>
+                    <h4>Commitment</h4>
+                    <p>
+                      We as a Group strive to be committed in everything we do,
+                      whether in providing the latest and best products and
+                      services to our customers, in delivering value to our
+                      shareholders or in contributing to our communities.
+                    </p>
+                  </div>
+                </div>
+
+                <div
+                  class="col-md-6 icon-box"
+                  data-aos="fade-up"
+                  data-aos-delay="300"
+                >
+                  <!-- <i class="ri-magic-line"></i> -->
+                  <div>
+                    <h4>Passion</h4>
+                    <p>
+                      We consider that passion and heart are cornerstones of our
+                      organization and the key to driving our success in
+                      effectively serving our stakeholders and offering them the
+                      means to fully benefit from our experience and expertise
+                      in providing quality telecommunications solutions.
+                    </p>
+                  </div>
+                </div>
+
+                <div
+                  class="col-md-6 icon-box"
+                  data-aos="fade-up"
+                  data-aos-delay="400"
+                >
+                  <!-- <i class="ri-command-line"></i> -->
+                  <div>
+                    <h4>Teamwork</h4>
+                    <p>
+                      We believe that working together as a team is the key to
+                      our business and, as such, we aim to foster a
+                      collaborative and friendly work environment where each
+                      team member is a partner in our company’s success.
+                    </p>
+                  </div>
+                </div>
+
+                <div
+                  class="col-md-6 icon-box"
+                  data-aos="fade-up"
+                  data-aos-delay="500"
+                >
+                  <!-- <i class="ri-radar-line"></i> -->
+                  <div>
+                    <h4>Excellence</h4>
+                    <p>
+                      We strive for excellence across our operations and are
+                      dedicated to achieving our goals and objectives as one
+                      holistic Group.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Values Section -->
+      <section id="services" class="services">
+        <div class="container" data-aos="fade-up">
+          <header class="section-header">
+            <h2>Postpaid and Prepaid Services</h2>
+            <p>  Products & Services</p>
+          </header>
+
+          <div class="row gy-4">
+            <div
+              class="col-lg-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div class="service-box blue">
+                <span><img src="assets/img/ic5.svg" /></span>
+                <h3>Roaming</h3>
+                <p>
+                  Home can follow you everywhere thanks to our roaming services.
+                  Every subscriber can enjoy our roaming facility and make
+                  national or international calls while abroad.
+                </p>
+                <a href="#" class="read-more"
+                  ><span>Read More</span> <i class="bi bi-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+
+            <div
+              class="col-lg-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="300"
+            >
+              <div class="service-box orange">
+                <span><img src="assets/img/ic1.svg" /></span>
+                <h3>Friends & Families</h3>
+                <p>
+                  COMIUM introduces yet another feature which allows friends and
+                  family to stay in touch in a more expedient and cost effective
+                  manner.
+                </p>
+                <a href="#" class="read-more"
+                  ><span>Read More</span> <i class="bi bi-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+
+            <div
+              class="col-lg-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="400"
+            >
+              <div class="service-box green">
+                <span><img src="assets/img/ic2.svg" /></span>
+                <h3>Mobile Internet</h3>
+                <p>
+                  It is a mobile communications technology designed for
+                  transmission of data rather than voice. It offers "always-on"
+                  internet connection and lets you use your phone (or other
+                  device).
+                </p>
+                <a href="#" class="read-more"
+                  ><span>Read More</span> <i class="bi bi-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+
+            <div
+              class="col-lg-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="500"
+            >
+              <div class="service-box red">
+                <span><img src="assets/img/ic3.svg" /></span>
+                <h3>Credit Transfer</h3>
+                <p>
+                  With Credit Transfer service, you can offer credit from your
+                  mobile to any other mobile anytime any place and as frequent
+                  as you want.
+                </p>
+                <a href="#" class="read-more"
+                  ><span>Read More</span> <i class="bi bi-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+
+            <div
+              class="col-lg-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="700"
+            >
+              <div class="service-box pink">
+                <span><img src="assets/img/ic4.svg" /></span>
+                <h3>EPL News Update</h3>
+                <p>
+                  With our new English Premier League News Update Service,
+                  Comium subscribers can now get SMS alert of goals, daily
+                  scores updates, team news, during the entire 2010 football
+                  season.
+                </p>
+                <a href="#" class="read-more"
+                  ><span>Read More</span> <i class="bi bi-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+            <div
+              class="col-lg-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div class="service-box blue">
+                <span><img src="assets/img/ic5.svg" /></span>
+                <h3>Roaming</h3>
+                <p>
+                  Home can follow you everywhere thanks to our roaming services.
+                  Every subscriber can enjoy our roaming facility and make
+                  national or international calls while abroad.
+                </p>
+                <a href="#" class="read-more"
+                  ><span>Read More</span> <i class="bi bi-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ======= F.A.Q Section ======= -->
+      <section id="faq" class="faq">
+        <div class="container" data-aos="fade-up">
+          <header class="section-header">
+            <h2>Support</h2>
+            <p>Frequently Asked Questions</p>
+          </header>
+
+          <div class="row">
+            <div class="col-lg-6">
+              <!-- F.A.Q List 1-->
+              <div class="accordion accordion-flush" id="faqlist1">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-1"
+                    >
+                      Non consectetur a erat nam at lectus urna duis?
+                    </button>
+                  </h2>
+                  <div
+                    id="faq-content-1"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div class="accordion-body">
+                      Feugiat pretium nibh ipsum consequat. Tempus iaculis urna
+                      id volutpat lacus laoreet non curabitur gravida. Venenatis
+                      lectus magna fringilla urna porttitor rhoncus dolor purus
+                      non.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-2"
+                    >
+                      Feugiat scelerisque varius morbi enim nunc faucibus
+                    </button>
+                  </h2>
+                  <div
+                    id="faq-content-2"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div class="accordion-body">
+                      Dolor sit amet consectetur adipiscing elit pellentesque
+                      habitant morbi. Id interdum velit laoreet id donec
+                      ultrices. Fringilla phasellus faucibus scelerisque
+                      eleifend donec pretium. Est pellentesque elit ullamcorper
+                      dignissim. Mauris ultrices eros in cursus turpis massa
+                      tincidunt dui.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-3"
+                    >
+                      Dolor sit amet consectetur adipiscing elit pellentesque ?
+                    </button>
+                  </h2>
+                  <div
+                    id="faq-content-3"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div class="accordion-body">
+                      Eleifend mi in nulla posuere sollicitudin aliquam ultrices
+                      sagittis orci. Faucibus pulvinar elementum integer enim.
+                      Sem nulla pharetra diam sit amet nisl suscipit. Rutrum
+                      tellus pellentesque eu tincidunt. Lectus urna duis
+                      convallis convallis tellus. Urna molestie at elementum eu
+                      facilisis sed odio morbi quis
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6">
+              <!-- F.A.Q List 2-->
+              <div class="accordion accordion-flush" id="faqlist2">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq2-content-1"
+                    >
+                      Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?
+                    </button>
+                  </h2>
+                  <div
+                    id="faq2-content-1"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#faqlist2"
+                  >
+                    <div class="accordion-body">
+                      Dolor sit amet consectetur adipiscing elit pellentesque
+                      habitant morbi. Id interdum velit laoreet id donec
+                      ultrices. Fringilla phasellus faucibus scelerisque
+                      eleifend donec pretium. Est pellentesque elit ullamcorper
+                      dignissim. Mauris ultrices eros in cursus turpis massa
+                      tincidunt dui.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq2-content-2"
+                    >
+                      Tempus quam pellentesque nec sem et tortor consequat?
+                    </button>
+                  </h2>
+                  <div
+                    id="faq2-content-2"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#faqlist2"
+                  >
+                    <div class="accordion-body">
+                      Molestie a iaculis at erat pellentesque adipiscing
+                      commodo. Dignissim suspendisse in est ante in. Nunc vel
+                      risus commodo viverra maecenas accumsan. Sit amet nisl
+                      suscipit adipiscing bibendum est. Purus gravida quis
+                      blandit turpis cursus in
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq2-content-3"
+                    >
+                      Varius vel pharetra vel turpis nunc eget lorem dolor?
+                    </button>
+                  </h2>
+                  <div
+                    id="faq2-content-3"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#faqlist2"
+                  >
+                    <div class="accordion-body">
+                      Laoreet sit amet cursus sit amet dictum sit amet justo.
+                      Mauris vitae ultricies leo integer malesuada nunc vel.
+                      Tincidunt eget nullam non nisi est sit amet. Turpis nunc
+                      eget lorem dolor sed. Ut venenatis tellus in metus
+                      vulputate eu scelerisque. Pellentesque diam volutpat
+                      commodo sed egestas egestas fringilla phasellus faucibus.
+                      Nibh tellus molestie nunc non blandit massa enim nec.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End F.A.Q Section -->
+
+      <!-- ======= Team Section ======= -->
+      <section id="team" class="team">
+        <div class="container" data-aos="fade-up">
+          <header class="section-header">
+            <h2>Team</h2>
+            <p>Our Team</p>
+          </header>
+
+          <div class="row gy-4">
+            <div
+              class="col-lg-3 col-md-6 d-flex align-items-stretch"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <div class="member">
+                <div class="member-img">
+                  <img
+                    src="assets/img/team/team-1.jpg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                  <div class="social">
+                    <a href=""><i class="bi bi-twitter"></i></a>
+                    <a href=""><i class="bi bi-facebook"></i></a>
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+                <div class="member-info">
+                  <h4>Walter White</h4>
+                  <span>Chief Executive Officer</span>
+                  <p>
+                    Velit aut quia fugit et et. Dolorum ea voluptate vel tempore
+                    tenetur ipsa quae aut. Ipsum exercitationem iure minima enim
+                    corporis et voluptate.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="col-lg-3 col-md-6 d-flex align-items-stretch"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div class="member">
+                <div class="member-img">
+                  <img
+                    src="assets/img/team/team-2.jpg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                  <div class="social">
+                    <a href=""><i class="bi bi-twitter"></i></a>
+                    <a href=""><i class="bi bi-facebook"></i></a>
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+                <div class="member-info">
+                  <h4>Sarah Jhonson</h4>
+                  <span>Product Manager</span>
+                  <p>
+                    Quo esse repellendus quia id. Est eum et accusantium
+                    pariatur fugit nihil minima suscipit corporis. Voluptate sed
+                    quas reiciendis animi neque sapiente.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="col-lg-3 col-md-6 d-flex align-items-stretch"
+              data-aos="fade-up"
+              data-aos-delay="300"
+            >
+              <div class="member">
+                <div class="member-img">
+                  <img
+                    src="assets/img/team/team-3.jpg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                  <div class="social">
+                    <a href=""><i class="bi bi-twitter"></i></a>
+                    <a href=""><i class="bi bi-facebook"></i></a>
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+                <div class="member-info">
+                  <h4>William Anderson</h4>
+                  <span>CTO</span>
+                  <p>
+                    Vero omnis enim consequatur. Voluptas consectetur unde qui
+                    molestiae deserunt. Voluptates enim aut architecto porro
+                    aspernatur molestiae modi.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="col-lg-3 col-md-6 d-flex align-items-stretch"
+              data-aos="fade-up"
+              data-aos-delay="400"
+            >
+              <div class="member">
+                <div class="member-img">
+                  <img
+                    src="assets/img/team/team-4.jpg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                  <div class="social">
+                    <a href=""><i class="bi bi-twitter"></i></a>
+                    <a href=""><i class="bi bi-facebook"></i></a>
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+                <div class="member-info">
+                  <h4>Amanda Jepson</h4>
+                  <span>Accountant</span>
+                  <p>
+                    Rerum voluptate non adipisci animi distinctio et deserunt
+                    amet voluptas. Quia aut aliquid doloremque ut possimus ipsum
+                    officia.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Team Section -->
+
+      <!-- ======= Contact Section ======= -->
+      <section id="contact" class="contact">
+        <div class="container" data-aos="fade-up">
+          <header class="section-header">
+            <h2>Contact</h2>
+            <p>Contact Us</p>
+          </header>
+
+          <div class="row gy-4">
+            <div class="col-lg-6">
+              <div class="row gy-4">
+                <div class="col-md-6">
+                  <div class="info-box">
+                    <i class="bi bi-geo-alt"></i>
+                    <h3>Address</h3>
+                    <p>
+                      27 Kairaba Avenue <br />Pipeline,KSMD<br />Banjul-The
+                      Gambia
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="info-box">
+                    <i class="bi bi-telephone"></i>
+                    <h3>Call Us</h3>
+
+                    <p>Tel: +220 6 601601<br />Fax: +220 6 601602</p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="info-box">
+                    <i class="bi bi-envelope"></i>
+                    <h3>Email Us</h3>
+                    <p>info@comium.gm</p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="info-box">
+                    <i class="bi bi-clock"></i>
+                    <h3>Open Hours</h3>
+                    <p>Monday - Friday<br />9:00AM - 05:00PM</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6">
+              <form
+                action="forms/contact.php"
+                method="post"
+                class="php-email-form"
+              >
+                <div class="row gy-4">
+                  <div class="col-md-6">
+                    <input
+                      type="text"
+                      name="name"
+                      class="form-control"
+                      placeholder="Your Name"
+                      required
+                    />
+                  </div>
+
+                  <div class="col-md-6">
+                    <input
+                      type="email"
+                      class="form-control"
+                      name="email"
+                      placeholder="Your Email"
+                      required
+                    />
+                  </div>
+
+                  <div class="col-md-12">
+                    <input
+                      type="text"
+                      class="form-control"
+                      name="subject"
+                      placeholder="Subject"
+                      required
+                    />
+                  </div>
+
+                  <div class="col-md-12">
+                    <textarea
+                      class="form-control"
+                      name="message"
+                      rows="6"
+                      placeholder="Message"
+                      required
+                    ></textarea>
+                  </div>
+
+                  <div class="col-md-12 text-center">
+                    <div class="loading">Loading</div>
+                    <div class="error-message"></div>
+                    <div class="sent-message">
+                      Your message has been sent. Thank you!
+                    </div>
+
+                    <button type="submit">Send Message</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Contact Section -->
+    </main>
+    <!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer" class="footer">
+      <div class="footer-newsletter">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-12 text-center">
+              <h4>Our Newsletter</h4>
+              <p>
+                Subscribe to our newsletter so we can send you offers and
+                discounts.
+              </p>
+            </div>
+            <div class="col-lg-6">
+              <form action="" method="post">
+                <input type="email" name="email" /><input
+                  type="submit"
+                  value="Subscribe"
+                />
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-top">
+        <div class="container">
+          <div class="row gy-4">
+            <div class="col-lg-5 col-md-12 footer-info">
+              <a href="index.html" class="logo d-flex align-items-center">
+                <img src="assets/img/logo-red.svg" alt="footer" />
+              </a>
+              <p>
+                Cras fermentum odio eu feugiat lide par naso tierra. Justo eget
+                nada terra videa magna derita.
+              </p>
+              <div class="social-links mt-3">
+                <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+                <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+                <a href="#" class="instagram"
+                  ><i class="bi bi-instagram"></i
+                ></a>
+                <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+
+            <div class="col-lg-2 col-6 footer-links">
+              <h4>Useful Links</h4>
+              <ul>
+                <li>
+                  <i class="bi bi-chevron-right"></i> <a href="#">Home</a>
+                </li>
+                <li>
+                  <i class="bi bi-chevron-right"></i> <a href="#">About us</a>
+                </li>
+                <li>
+                  <i class="bi bi-chevron-right"></i> <a href="#">Services</a>
+                </li>
+                <li>
+                  <i class="bi bi-chevron-right"></i>
+                  <a href="#">Terms of service</a>
+                </li>
+                <li>
+                  <i class="bi bi-chevron-right"></i>
+                  <a href="#">Privacy policy</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-lg-2 col-6 footer-links"></div>
+
+            <div
+              class="col-lg-3 col-md-12 footer-contact text-center text-md-start"
+            >
+              <h4>Contact Us</h4>
+              <p>
+                27 Kairaba Avenue<br />
+                Pipeline,KSMD<br />
+                Banjul-The Gambia<br />
+                <strong>Phone:</strong> +220 6 601601<br />
+                <strong>Email:</strong> info@comium.gm
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="copyright">
+          &copy; Copyright <strong><span>Comium</span></strong
+          >. All Rights Reserved
+        </div>
+        <div class="credits"></div>
+      </div>
+    </footer>
+    <!-- End Footer -->
+
+    <a
+      href="#"
+      class="back-to-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

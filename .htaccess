@@ -1,0 +1,43 @@
+# Security Headers
+<IfModule mod_headers.c>
+Header set Content-Security-Policy "upgrade-insecure-requests"
+Header set Strict-Transport-Security "max-age=31536000; includeSubDomains"
+Header set X-Xss-Protection "1; mode=block"
+Header set X-Frame-Options "SAMEORIGIN"
+Header set X-Content-Type-Options "nosniff"
+Header set Referrer-Policy "strict-origin-when-cross-origin"
+Header set Permissions-Policy "geolocation=self"
+</IfModule>
+
+RewriteEngine On
+RewriteRule ^change-has-come$ /change-has-come.php [L]
+RewriteRule ^fastnet$ /fastnet.php [L]
+
+RewriteRule ^data-bundles$ /data-bundles.php [L]
+
+RewriteRule ^comcach$ /comcach.php [L]
+
+RewriteRule ^survey$ /survey.php [L]
+
+RewriteRule ^vote$ /vote.php [L]
+
+RewriteRule ^international-roaming$ /international-roaming.php [L]
+
+# Redirect query string ?filter=something to clean URL /international-roaming/something
+RewriteCond %{THE_REQUEST} \s/international-roaming\.php\?filter=([^\s&]+) [NC]
+RewriteRule ^ /international-roaming/%1? [R=301,L]
+
+# Rewrite clean URL /international-roaming/something to internal PHP file with query
+RewriteRule ^international-roaming/([^/]+)/?$ /international-roaming.php?filter=$1 [QSA,L]
+
+# Rewrite clean URL /international-roaming to international-roaming.php (no filter)
+RewriteRule ^international-roaming/?$ /international-roaming.php [L]
+
+RewriteRule ^roaming-bundle/([a-zA-Z0-9_-]+)$ /roaming-bundle.php?country=$1 [L]
+
+
+RewriteRule ^landing$ /landing.html [L]
+
+RewriteRule ^comium-gambia-marks-conclusion-of-4g-testing-phase-and-sets-the-stage-for-exceptional-connectivity-milestone$ /comium-gambia-marks-conclusion-of-4g-testing-phase-and-sets-the-stage-for-exceptional-connectivity-milestone.php [L]
+
+RewriteRule ^staging$ /index-staging.php [L]
