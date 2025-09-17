@@ -309,7 +309,7 @@
     font-size: 38px;
     line-height: 42px;
     font-weight: 700;
-    color: #111921;">  About Comium SEVAG</p>
+    color: #111921;">  About Comium</p>
               <p style="
                 margin: 15px 0 30px 0;
                 line-height: 24px;
