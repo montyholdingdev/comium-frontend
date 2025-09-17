@@ -22,10 +22,10 @@ jobs:
 
       - name: SSH and deploy
         run: |
-          ssh ${{ secrets.TESTING_VPS_USER }}@${{ secrets.TESTING_VPS_HOST }} << 'EOF'
+          ssh -i ~/.ssh/id_ed25519 -o IdentitiesOnly=yes \
+            "${{ secrets.VPS_USER }}@${{ secrets.VPS_HOST }}" <<'EOF'
+            set -euo pipefail
             cd ~/websites/comium/frontend
-            git fetch origin
-            git checkout staging
             git pull origin staging
             cd ~/websites/comium
             docker compose up -d --build
